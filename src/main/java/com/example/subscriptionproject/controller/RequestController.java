@@ -38,6 +38,7 @@ public class RequestController {
     public String updatePlan(@PathVariable String userName, @PathVariable String plan){
         String replyRcvd = controllerService.updatePlan(userName, plan);
         return replyRcvd;
+
     }
 
 }
